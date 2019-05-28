@@ -54,3 +54,8 @@ waypoints[0]['name'] = "not a real place"
 for x in waypoints:
     for y, z in x.items():
         print(z)
+        
+# Is same as:
+
+# for x in waypoints:
+#     print(x.value)
